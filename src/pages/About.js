@@ -18,10 +18,9 @@ export default class About extends Component {
         </div>
         <div className="split right">
           <div className="centered">
-            <div className="name_title">Your Name</div>
-            <div className="brief_description">
-              Tell us about yourself in a few sentences. Tell us your interests
-              and say a fun fact about yourself.
+          <div className="name_title">Guilherme Noronha Rigaud</div>
+        <div className="brief_description">
+        I am a passionate Full Stack Software Developer with a concentration in Project Management!
             </div>
           </div>
         </div>
