@@ -18,6 +18,7 @@ class AddTodo extends Component {
     this.setState({
       due: new Date(event).toLocaleDateString()
     });
+    console.log(this.state.due)
   };
 
 

@@ -34,13 +34,10 @@ class Home extends Component {
     
     // Create a check for "Invalid Date" or null so no task is made.
     if ("Invalid Date" === todo.due){
-      console.log('Here1', todo.due)
       return
     } else if (null === todo.due) {
-      console.log('Her2', todo.due)
       return
     }
-    console.log('Here', todo.due)
     // In React, keys or ids in a list help identify which items have changed, been added or removed. Keys
     // should not share duplicate values.
     // To avoid having dup values, we use the Math.random() function to generate a random value for a todo id.
